@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+       body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #efefef;
+       }
+       fieldset{
+        padding: 15px 10px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        margin-top: 30px;
+       }
+       div{
+        margin-top: 6px;
+       }
+       h1{
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+<div class="container">    
+    <h1>Kayıt formu</h1>
+    <!--Form-->
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+            <div>
+                <label for="name">İsim: </label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="surname">Soyisim: </label>
+                <input type="text" id="surname">
+            </div>
+            <div>
+                <label for="email">E-posta: </label>
+                <input type="email">
+            </div>
+            <div>
+                <label for="password">Şifre: </label>
+                <input type="password" id="password">
+            </div>
+
+            <!-- Gender Input -->
+            <div>
+                <label for="gender">Cinsiyet :</label>
+                <input type="radio" name="gender" id="male"> Erkek
+                <input type="radio" name="gender" id="female"> Kadın
+            </div>
+
+            <!-- Favourite Fruit Input -->
+            <div>
+                <label for="fruit">Favori Meyveniz :</label>
+                <select name="fruit">
+                    <option>Seçiniz..</option>
+                    <option>Elma</option>
+                    <option>Muz</option>
+                    <option>Çilek </option>
+                </select>
+            </div>
+            
+            <!-- Message Area Input -->
+            <div>
+                <label for="message">Mesajınız:</label><br>
+                <textarea name="message" cols="50" rows="5"></textarea>
+            </div>
+
+            <!-- Submit & Reset Button Input -->
+            <div>
+                <button type="submit">Gönder</button>
+                <button type="reser">Reset</button>
+            </div>
+        </fieldset>
+
+    </form>
+</div>
+
+</body>
+</html>
