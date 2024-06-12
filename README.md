@@ -1,1 +1,1 @@
-Frontend Web Development Bootcamp
+Pakita.dev Frontend Web Development Bootcamp
