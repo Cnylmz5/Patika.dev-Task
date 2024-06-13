@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav>
+        <div class="container">
+            <div class="nav-items">
+                <div class="logo">
+                    <a href="index.html"><img src="./img/logoipsum-330.svg" alt="logo"></a>
+                </div>
+                <div class="pages">
+                    <ul>
+                        <li><a href="./index.html">Anasayfa</a></li>
+                        <li><a href="./servisler.html">Servisler</a></li>
+                        <li><a href="./hakkinda.html">Hakkında</a></li>
+                        <li><a href="./iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>   
+    
+    <section class="contact">
+        <div class="container">
+            <h2>İletişim</h2>
+            <p>Bizimle aşağıdaki iletişim numaraları ve adresten ulaşabilirsiniz.:</p>
+            <ul>
+                <li>
+                    <span style="font-weight: bold;">Telefon:</span>
+                    <p>0555 555 55 55</p>
+                </li>
+                <li>
+                    <span style="font-weight: bold;">Email:</span>
+                    <p>example@gmail.com</p>
+                </li>
+                <li>
+                    <span style="font-weight: bold;">Adress</span>
+                    <p>Eryaman Mahallesi Ankara/Eryaman</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div class="container">
+            <form action="#" method="get">
+                <fieldset style="width: 50%;">
+                    <legend><h3>İletişim Formu</h3></legend>
+                    <div>
+                        <label for="name">İsim: </label>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <label for="surname">Soyisim: </label>
+                        <input type="text" id="surname">
+                    </div>
+                    <div>
+                        <label for="email">E-posta: </label>
+                        <input type="email">
+                    </div>
+                    <!-- Message Area Input -->
+                    <div>
+                        <label for="message">Mesajınız:</label><br>
+                        <textarea name="message" cols="50" rows="5"></textarea>
+                    </div>
+        
+                    <!-- Submit & Reset Button Input -->
+                    <div>
+                        <button type="submit">Gönder</button>
+                        <button type="reser">Reset</button>
+                    </div>
+                </fieldset>
+        
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

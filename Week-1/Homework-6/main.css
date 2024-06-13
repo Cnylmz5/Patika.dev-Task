@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #f9f9f9;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    height: 75px;
+}
+nav .nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.2rem;
+}
+nav .nav-items .logo img{
+    width: 150px;
+}
+nav .nav-items .pages ul{
+    display: flex;
+}
+nav .nav-items .pages ul li{
+    margin-left: 1rem;
+    font-size: 18px;
+}
+nav .nav-items .pages ul li a{
+    color: black;
+}
+.main{
+    padding-top: 2rem;
+}
+.main .header{
+    text-align: center;
+}
+.main .header h1{
+    font-size: 48px;
+    padding-bottom: 1rem;
+}
+.main .img{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.main img{
+    width: 700px;
+    border-radius: 16px;
+}
+.main .text p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.main .text ul li{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about{
+    padding-top: 2rem;
+}
+.about-header{
+    padding-bottom: 2rem;
+}
+.about-header p{
+    padding-top: 1rem;
+}
+.mission, .vission, .our-values{
+    padding-bottom: 1rem;
+}
+.our-values ul li{
+    padding-bottom: 1rem;
+}
+
+.services{
+    padding-top: 1rem;
+}
+.services h2{
+    padding-bottom: 1rem;
+}
+.services h3{
+    margin-top: 1rem;
+    margin-bottom: 4px;
+    }
+.contact ul{
+    padding-top: 1rem;
+}
+.contact-form{
+    padding-top: 1rem;
+}
+.contact-form div{
+    margin-top: 10px;
+}
