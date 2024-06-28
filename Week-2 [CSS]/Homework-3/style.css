@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Epilogue", sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navigation Bar */
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+nav .nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0rem;
+}
+nav .navigation-buttons{
+    margin-right: -1rem;
+}
+nav .navigation-buttons ul{
+    display: flex;   
+}
+nav .navigation-buttons ul li{
+    margin-right: 1rem; 
+}
+nav .navigation-buttons ul li a{
+    color: #2D2D2D; 
+    font-weight: 500;
+}
+
+/* Main Content */
+
+#main{
+    background-color: #F9E6F0;
+    padding: 100px;
+}
+#main .main-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#main .main-text{
+    width: 60%;
+}
+
+/* Books Content */
+
+#books{
+    padding: 100px;
+}
+#books .works{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#books .works h3{
+    margin-bottom: 1rem;
+}
+#books .works ul li{
+    list-style-type: upper-roman;
+    margin-bottom: 1rem;
+}
+
+/* Books Content */
+
+#info{
+    background-color: #f9f9f9;
+    padding: 100px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info-text{
+    width: 60%;
+}
+
+/* Footer Content */
+
+footer{
+    padding: 1rem;
+    background-color: #e2e2e2;
+}
+footer p{
+    text-align: center;
+}
