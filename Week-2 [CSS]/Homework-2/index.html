@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!--Header-->
+    <header>
+        <div class="container">
+            <h1 id="title">Survey Form</h1>
+            <p id="description">For CSS Practice</p>
+        </div>
+    </header>
+
+    <!--Form-->
+
+    <form action="^#" id="survey-form">
+
+    <input type="text" id="name-label" name="fname" value="Full Name"><br>
+
+    <input type="email" id="email-label" value="Mail"><br>
+
+    <input type="number" id="number-label" value="Age"><br><br>
+    
+    <p>Select gender</p>
+    <select name="gender" id="gender">
+                <option value="men">Men</option>
+        <option value="woman">Woman</option>
+      </select><br><br>
+
+      <form action="#">
+        <p>Where did you here us?</p> <br>
+        <input type="radio" id="instagram"  value="HTML">
+        <label for="istagram">Instagram</label><br>
+        <input type="radio" id="linkedln" value="Linkedln">
+        <label for="css">Linkedln</label><br><br>
+
+      <div class="flex">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label> Terms of Service</label><br>
+         <input type="checkbox">
+         <label>Subscribe For News</label><br>
+      </div><br>
+      
+
+    <textarea id="textarea" name="textarea" rows="4" cols="40">Suggestions</textarea>
+    <br>
+    <div class="button">
+        <a href="#">Sign Up</a>
+    </div>
+    
+
+    </form>
+
+</body>
+</html>
