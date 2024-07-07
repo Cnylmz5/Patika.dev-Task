@@ -1,0 +1,29 @@
+nav{
+    top: 0;
+    background-color: fff;
+}
+
+.story-content img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+}
+.story-content p{
+    font-size: 12px;
+}
+.profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+}
+.advice-profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.icons ul li{
+    margin-right: 1rem;
+}
+
