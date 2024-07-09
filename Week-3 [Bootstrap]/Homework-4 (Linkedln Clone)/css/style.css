@@ -1,0 +1,20 @@
+html{
+    background-color: #F4F2EE;  
+}
+nav{
+    height:60px;
+}
+.navbar-nav i{
+    font-size: 20px;
+}
+.navbar-nav a{
+    margin-top: -4px;
+    font-size: 12px;
+}
+.content{
+    background-color: #F4F2EE; 
+}
+.card-body button span{
+    color: black;
+    margin-left: 0.5rem;
+}
