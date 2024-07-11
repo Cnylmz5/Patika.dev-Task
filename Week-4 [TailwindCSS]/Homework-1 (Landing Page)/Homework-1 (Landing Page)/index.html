@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <!--CSS Import-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--TailwindCSS Import-->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-100 p-8">
+
+  <header>
+    <nav class="container mx-auto p-4 bg-white">
+      <div class="flex justify-between">
+        <div class="logo">
+          <svg id="logo-85" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="ccustom" fill-rule="evenodd" clip-rule="evenodd" d="M10 0C15.5228 0 20 4.47715 20 10V0H30C35.5228 0 40 4.47715 40 10C40 15.5228 35.5228 20 30 20C35.5228 20 40 24.4772 40 30C40 32.7423 38.8961 35.2268 37.1085 37.0334L37.0711 37.0711L37.0379 37.1041C35.2309 38.8943 32.7446 40 30 40C27.2741 40 24.8029 38.9093 22.999 37.1405C22.9756 37.1175 22.9522 37.0943 22.9289 37.0711C22.907 37.0492 22.8852 37.0272 22.8635 37.0051C21.0924 35.2009 20 32.728 20 30C20 35.5228 15.5228 40 10 40C4.47715 40 0 35.5228 0 30V20H10C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0ZM18 10C18 14.4183 14.4183 18 10 18V2C14.4183 2 18 5.58172 18 10ZM38 30C38 25.5817 34.4183 22 30 22C25.5817 22 22 25.5817 22 30H38ZM2 22V30C2 34.4183 5.58172 38 10 38C14.4183 38 18 34.4183 18 30V22H2ZM22 18V2L30 2C34.4183 2 38 5.58172 38 10C38 14.4183 34.4183 18 30 18H22Z" fill="#5417D7"></path></svg>
+        </div>
+        <div class="menu">
+          <ul class="flex items-center gap-6">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#"><button class="bg-purple-400 hover:bg-purple-600 text-white py-2 px-4 rounded">
+              Sign Up
+            </button></a></li>
+          </ul>
+        </div>
+      </div>
+      
+    </nav>
+  </header>
+
+  <section class="mt-10">
+    <div class="container mx-auto flex justify-between bg-white">
+      <div class="info w-2/5 text-center mt-10 mb-10">
+        <h1 class="font-bold">Build it with <br> Mamba</h1> <br>
+        <p class="font-medium">Modular and versatile. The ultimate design toolkit for savvy technology startups.</p>
+        <div class="input mt-5 ">
+          <input id="name" name="name" type="name" placeholder="Name" class="lu tu aeb afh arw ayb bbt bbz bcd bcl bgg bnh bni bnu cng cni p-4 rounded w-9/12 bg-neutral-100">
+          <input id="email" name="email" type="email" placeholder="Email" class="lu tu aeb afh arw ayb bbt bbz bcd bcl bgg bnh bni bnu cng cni p-4 rounded w-9/12 mt-6 bg-neutral-100">
+        </div>
+      </div>
+      <div class="img w-3/5 flex justify-center items-center">
+        <img src="https://picsum.photos/500/300">
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <div class="container mx-auto">
+      <div class="head text-center">
+        <h5 class="text-fuchsia-700">HOW IT WORKS</h5>
+        <h1 class="font-semibold">Building With is Simple</h1>
+      </div>
+      <div class="boxs flex justify-between mt-10 gap-6">
+        <div class="box p-8 w-1/3 bg-white">
+          <div class="rounded-full p-3 bg-purple-400 font-bold text-white flex items-center justify-center" style="font-size: 24px;">1</div> <br>
+          <p><strong>Nulla.</strong> Nostrum, corrupti blanditiis. Illum architexto?</p>
+        </div>
+        <div class="box p-8 w-1/3 bg-white">
+          <div class="rounded-full p-3 bg-purple-400 font-bold text-white flex items-center justify-center" style="font-size: 24px;">2</div><br>
+          <p><strong>Accusantium.</strong> Virae saepe atque neque sunt elus dolor veniam arias debitis?</p>
+        </div>
+        <div class="box p-8 w-1/3 bg-white">
+          <div class="rounded-full p-3 bg-purple-400 font-bold text-white flex items-center justify-center" style="font-size: 24px;">3</div><br>
+          <p><strong>Maxime.</strong>Expedita temporibus culpa reprehenderit doloribus consectetur odio!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="mt-10">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-2 gap-4 text-center">
+        <div class="bg-white flex justify-center items-center p-4">
+          <img src="https://picsum.photos/500/300">
+        </div>
+        <!-- ... -->
+        <div class="bg-white p-10 flex flex-col justify-center items-center">
+          <img src="https://picsum.photos/100/100" class="rounded-full" style="width: 100px; height: 100px;">
+          <p class="font-bold mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. In ullam ratione quibusdam aperiam iure, alias corrupti.</p>
+          <span class="block mt-5">Jhon Doe</span>
+          <span class="block">Frontend Developer</span>
+          <div class="circle flex gap-1 mt-6">
+            <div style="width: 8px; height: 8px;" class="rounded-full bg-gray-300"></div>
+            <div style="width: 8px; height: 8px;" class="rounded-full bg-gray-200"></div>
+            <div style="width: 8px; height: 8px;" class="rounded-full bg-gray-200"></div>
+            <div style="width: 8px; height: 8px;" class="rounded-full bg-gray-200"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <div class="container mx-auto p-6 bg-white">
+      <h2 class="text-3xl font-bold">Create with us</h2>
+      <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam perferendis quos magni iusto earum, est culpa quibusdam, fuga quidem accusantium asperiores optio sapiente nisi mollitia repellat suscipit officiis ducimus deserunt error. Mollitia corporis sequi, aliquid voluptatibus modi omnis quo quibusdam placeat, eius saepe debitis quia, magni porro temporibus labore.</p>
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <div class="container mx-auto p-6 bg-white flex">
+      <div class="img w-3/5">
+        <img src="https://picsum.photos/500/300" class="w-full">
+      </div>
+      <div class="text w-2/5 p-6 flex flex-col">
+        <div class="up flex flex-col justify-items-start">
+          <p class="bg-purple-400 text-white p-2 rounded-full" style="width: 80px;">business</p>
+           <h4 class="text-xl mt-5 font-bold">Curating a workplace that ınsoires team movement</h4>
+        </div>
+        <div class="down flex flex-col justify-items-end" style="margin-top: 100px;">
+           <p>Novembr 30,2020</p>
+           <p>BY Jhon Doe</p>
+        </div>
+
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="mt-2">
+    <div class="container mx-auto">
+      <div class="boxs flex justify-between mt-10 gap-6">
+        <div class="box p-8 w-1/3 bg-white">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor molestiae maiores vel?</p>
+        </div>
+        <div class="box p-8 w-1/3 bg-white">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor molestiae maiores vel?</p>
+        </div>
+        <div class="box p-8 w-1/3 bg-white">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor molestiae maiores vel?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <section class="mt-10">
+    <div class="container mx-auto p-6 bg-white text-center">
+      <h2 class="text-3xl font-bold">Our team is here to help you</h2>
+      <p class="mt-5">meet our crew ></p>
+      <div class="flex items-center justify-center">
+        <img src="https://picsum.photos/500/300" class="w-3/5 mt-5 ">
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <div class="container mx-auto bg-white">
+      <div class="div flex justify-between p-6">
+        <div class="logo">
+          <h6 class="text-xl font-bold">mamba</h6>
+        </div>
+        <div class="icons flex gap-2">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Fontawesome Script-->
+
+  <script src="https://kit.fontawesome.com/c891eab413.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
