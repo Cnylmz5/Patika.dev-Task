@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <!--CSS Import-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--TailwindCSS Import-->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-100">
+
+  <header>
+    <nav class="container mx-auto p-4">
+        <div class="grid grid-cols-3">
+            <div class="flex items-center">
+                <ul class="flex gap-4 ">
+                <li>
+                    <a href="#" class="">Link</a>
+                    <div class="active w-auto border border-purple-700 mt-2"><a href="#"></a></div>
+                </li>
+                <li>
+                    <a href="#">Link</a>
+                    <div class="active w-auto border mt-2"><a href="#"></a></div>
+                </li>
+                <li>
+                    <a href="#">Link</a>
+                    <div class="active w-auto border mt-2"><a href="#"></a></div>
+                </li>
+                </ul>
+             </div>
+            <div class="flex justify-center">
+                <svg id="logo-85" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="ccustom" fill-rule="evenodd" clip-rule="evenodd" d="M10 0C15.5228 0 20 4.47715 20 10V0H30C35.5228 0 40 4.47715 40 10C40 15.5228 35.5228 20 30 20C35.5228 20 40 24.4772 40 30C40 32.7423 38.8961 35.2268 37.1085 37.0334L37.0711 37.0711L37.0379 37.1041C35.2309 38.8943 32.7446 40 30 40C27.2741 40 24.8029 38.9093 22.999 37.1405C22.9756 37.1175 22.9522 37.0943 22.9289 37.0711C22.907 37.0492 22.8852 37.0272 22.8635 37.0051C21.0924 35.2009 20 32.728 20 30C20 35.5228 15.5228 40 10 40C4.47715 40 0 35.5228 0 30V20H10C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0ZM18 10C18 14.4183 14.4183 18 10 18V2C14.4183 2 18 5.58172 18 10ZM38 30C38 25.5817 34.4183 22 30 22C25.5817 22 22 25.5817 22 30H38ZM2 22V30C2 34.4183 5.58172 38 10 38C14.4183 38 18 34.4183 18 30V22H2ZM22 18V2L30 2C34.4183 2 38 5.58172 38 10C38 14.4183 34.4183 18 30 18H22Z" fill="#5417D7"></path></svg>
+            </div>
+            <div class="flex justify-end">   
+                <form class="max-w-md items-center justify-center flex gap-2 ">   
+                    <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                    <div class="relative">
+                        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                            </svg>
+                        </div>
+                        <input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search " required />
+                    </div>
+                    <button type="button" class=" text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded text-sm px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Log in</button>
+                </form>    
+            </div>
+            
+          </div>
+    </nav>
+  </header>
+
+  <section class="bg-slate-300" id="main">
+    <div class="container mx-auto text-center p-24">
+        <h1 class="text-5xl">Quisquam necessita <br> vel <span class="font-semibold text-purple-700">laborum <br> doloribus</span> delectus</h1>
+        <p class="mt-5">Cupiditate minima voluptate temporibus quia? <br> Architecto beatae esse ab amet vera eaque explicabo!</p>
+        <div class="buttons mt-8">
+            <button type="button" class="px-5 py-3 text-base font-medium text-center text-white bg-purple-700 rounded-lg ">Get Started</button>
+            <button type="button" class="px-5 py-3 text-base font-medium text-center text-purple-700 bg-white rounded-lg ">Learn more</button>
+        </div>
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <div class="container mx-auto p-4">
+        <h2 class="text-3xl text-center">What our customers said about us</h1>
+            <div class="customers grid grid-cols-2 w-2/4 gap-4 mx-auto">
+                <div class="customer-card mt-8 p-14 bg-white text-center rounded-md drop-shadow-lg">
+                    <div class="card-head">
+                        <p> '' Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ex, neque fugiat minima cupiditate harum amet quis ducimus voluptates accusantium ad. ''
+                        </p>
+                    </div>
+                    <div class="customer-img flex items-center justify-center mt-2 mb-2">
+                        <img src="https://picsum.photos/200/300" class="rounded-full" style="width: 80px; height: 80px;">
+                    </div>
+                    <div class="card-body bg-purple-700 p-4 text-white text-center">
+                        <p>Jhon Doe</p>
+                        <p>Frontend Developer</p>
+                    </div>
+                </div>
+                <div class="customer-card mt-8 p-14 bg-white text-center rounded-md drop-shadow-lg">
+                    <div class="card-head">
+                        <p> '' Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ex, neque fugiat minima cupiditate harum amet quis ducimus voluptates accusantium ad. ''
+                        </p>
+                    </div>
+                    <div class="customer-img flex items-center justify-center mt-2 mb-2">
+                        <img src="https://picsum.photos/200/300" class="rounded-full" style="width: 80px; height: 80px;">
+                    </div>
+                    <div class="card-body bg-purple-700 p-4 text-white text-center">
+                        <p>Jhon Doe</p>
+                        <p>Frontend Developer</p>
+                    </div>
+                </div>
+                <div class="customer-card mt-8 p-14 bg-white text-center rounded-md drop-shadow-lg">
+                    <div class="card-head">
+                        <p> '' Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ex, neque fugiat minima cupiditate harum amet quis ducimus voluptates accusantium ad. ''
+                        </p>
+                    </div>
+                    <div class="customer-img flex items-center justify-center mt-2 mb-2">
+                        <img src="https://picsum.photos/200/300" class="rounded-full" style="width: 80px; height: 80px;">
+                    </div>
+                    <div class="card-body bg-purple-700 p-4 text-white text-center">
+                        <p>Jhon Doe</p>
+                        <p>Frontend Developer</p>
+                    </div>
+                </div>
+                <div class="customer-card mt-8 p-14 bg-white text-center rounded-md drop-shadow-lg">
+                    <div class="card-head">
+                        <p> '' Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ex, neque fugiat minima cupiditate harum amet quis ducimus voluptates accusantium ad. ''
+                        </p>
+                    </div>
+                    <div class="customer-img flex items-center justify-center mt-2 mb-2">
+                        <img src="https://picsum.photos/200/300" class="rounded-full" style="width: 80px; height: 80px;">
+                    </div>
+                    <div class="card-body bg-purple-700 p-4 text-white text-center">
+                        <p>Jhon Doe</p>
+                        <p>Frontend Developer</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <div class="container mx-auto p-4 w-1/2 bg-white rounded">
+        <h3 class="max-w-sm mx-auto text-3xl mt-8 mb-8 font-medium">Contact Us</h3>
+        <form class="max-w-sm mx-auto mt-4">
+        <div class="mb-5">
+            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+            <input type="name" id="name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Name" required />
+        </div>
+        <div class="mb-5">
+            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
+            <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Your email" required />
+        </div>
+        <div class="mb-5">
+            <label for="repeat-password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label>
+            <input type="password" id="repeat-password" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Message..." required />
+        </div>
+        
+        <button type="submit" class="text-white bg-purple-700 w-full focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-10 ">Send</button>
+        </form>
+
+    </div>
+  </section>
+
+  <footer class="mt-10 bg-slate-300">
+    <div class="container mx-auto p-8 flex justify-between">
+        <div class="menu">
+            <ul class="flex gap-4">
+                <li><a href="#"></a>Shop</li>
+                <li><a href="#"></a>About</li>
+                <li><a href="#"></a>Blog</li>
+                <li><a href="#"></a>Pricing</li>
+                <li><a href="#"></a>Contact</li>
+            </ul>
+        </div>
+        <div class="social-buttons">
+            <ul class="flex gap-4">
+                <li>
+                    <div class="rounded-full bg-purple-700 text-center flex justify-center items-center" style="width: 30px; height: 30px;"><i class="fa-brands text-white fa-instagram"></i></div>
+                </li>
+                <li>
+                    <div class="rounded-full bg-purple-700 text-center flex justify-center items-center" style="width: 30px; height: 30px;"><i class="fa-brands text-white fa-pinterest"></i></div>
+                    
+                </li>
+                <li>
+                    <div class="rounded-full bg-purple-700 text-center flex justify-center items-center" style="width: 30px; height: 30px;"><i class="fa-brands text-white fa-twitter"></i></div>
+                </li>
+                <li>
+                    <div class="rounded-full bg-purple-700 text-center flex justify-center items-center" style="width: 30px; height: 30px;"><i class="fa-brands text-white fa-facebook"></i></div>
+                </li>
+                <li>
+                    <div class="rounded-full bg-purple-700 text-center flex justify-center items-center" style="width: 30px; height: 30px;"><i class="fa-brands text-white fa-google"></i></i></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </footer>
+
+  <!--Fontawesome Script-->
+
+  <script src="https://kit.fontawesome.com/c891eab413.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
